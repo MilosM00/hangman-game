@@ -92,3 +92,52 @@
     bottom: 395px;
     right: 100px
 }
+
+.transparent-head{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid transparent;
+}
+.transparent-body{
+    width: 3px;
+    height: 100px;
+    background-color: transparent;
+}
+.transparent-arm-one{
+    position: relative;
+    width: 3px;
+    height: 50px;
+    background-color: transparent;
+    left: 20px;
+    bottom: 100px;
+    transform: rotate(50deg);
+}
+.transparent-arm-two{
+    position: relative;
+    width: 3px;
+    height: 50px;
+    background-color: transparent;
+    right: 22px;
+    bottom: 146px;
+    transform: rotate(120deg);
+}
+.transparent-leg-one{
+    position: relative;
+    width: 3px;
+    height: 50px;
+    background-color: transparent;
+    left: 20px;
+    bottom: 110px;
+    transform: rotate(130deg);
+}
+.transparent-leg-two{
+    position: relative;
+    width: 3px;
+    height: 50px;
+    background-color: transparent;
+    right: 20px;
+    bottom: 160px;
+    transform: rotate(230deg);
+}
