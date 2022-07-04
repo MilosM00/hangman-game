@@ -1,0 +1,18 @@
+.overlay-find{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    width: 100%;
+    top: 400px;
+}
+
+.inline-word{
+    display: flex;
+    gap: 15px;
+}
+
+.display-word{
+    font-family: 'Goldman', cursive;
+    font-size: 25px;
+    color: rgb(255,255,255);
+}
