@@ -1,0 +1,118 @@
+.hangman{
+    padding-top: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.image-overlay{
+    display: flex;
+    gap: 50px;
+}
+
+.guesses-left{
+    padding-top: 130px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255,255,255);
+    font-size: 20px;
+}
+
+.hangman-images{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.guess{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(255,255,255);
+}
+
+.guess-word{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    letter-spacing: 20px;
+    font-size: 25px;
+    color: rgb(255,255,255);
+}
+
+.display-buttons{
+    padding-top: 20px;
+    max-width: 450px;
+    text-align: center;
+}
+
+.letter-button{
+    background-color: rgb(255,255,255);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border: 2px solid rgb(255,255,255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.letter-button:disabled{
+    background-color: transparent;
+    color: rgb(255,255,255);
+}
+
+.message{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.button-play-again{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.button-play-again:hover{
+    transition: 0.4s;
+    background-color: transparent;
+    color: rgb(255,255,255);
+}
+
+
+@media (max-width: 430px) {
+    .image-overlay{
+        display: grid;
+        place-items: center;
+        gap: 10px;
+    }
+
+    .guesses-left{
+        padding-top: 0;
+    }
+
+    .guess{
+        padding-top: 50px;
+    }
+
+    .guess-word{
+        padding-top: 20px;
+    }
+
+    .hangman-images{
+        width: 100px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .hangman{
+        padding-top: 10px;
+    }
+}
